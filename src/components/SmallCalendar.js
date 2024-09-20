@@ -78,7 +78,7 @@ export default function SmallCalendar() {
                   setSmallCalendarMonth(currentMonthIdx);
                   setDaySelected(day);
                 }}
-                className={`py-1 w-full ${getDayClass(day)}`}
+                className={`py-1 w-full ${getDayClass(day)} hover:bg-gray-200 hover:cursor-pointer`}
               >
                 <span className="text-sm">{day.format("D")}</span>
               </button>
